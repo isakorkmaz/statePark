@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.page-header {
+	color: white;
+	background-color: black;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+	
+	nav ul li {
+		padding: 10px;
+		font-size: 1.5em;
+		
+	}
+	
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+		}
+		
+.home-table {
+	padding-top: 10px;
+}
+
+.home-table td {
+	vertical-align: top;
+	padding: 5px;
+}
+
+.error {
+	color: red;
+}
+
+.submit {
+}
+
+#allWeatherTables{
+	display: flex;
+	flex-direction: row;
+}
+.weatherImage{
+	width:30%;
+}
+#weatherImage-1{
+	width:70%;
+}
